@@ -5,6 +5,9 @@ This is my attempt to remake my static portfolio website in react, potentially a
 # Done so far
 
 [x] Navbar **in progress**
+<br>
 [x] About Me **in progress**
+<br>
 [] Blog
+<br>
 [] Projects
