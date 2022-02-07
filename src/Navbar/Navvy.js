@@ -1,15 +1,11 @@
-import React from 'react';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
 import { Col, Row, Nav, Navbar, Container } from "react-bootstrap";
-import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
-import About from './About/About';
+import '../App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
-  return (
-    <div className="app">
-    <main>
-      <Navbar stick="top" bg="light" variant="light">
+export default function Navvy() {
+<>
+<Navbar stick="top" bg="light" variant="light">
         <Container>
         <Navbar.Brand href="#home">
             <img
@@ -26,13 +22,6 @@ function App() {
             <Nav.Link href="#pricing">Projects</Nav.Link>
         </Nav>
         </Container>
-      </Navbar>
-      <Container className="contentContainer">
-        <About />
-      </Container>
-    </main>
-    </div>
-  );
+</Navbar>
+</>
 }
-
-export default App;
