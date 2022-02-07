@@ -1,0 +1,59 @@
+@import "../global.scss";
+
+ul{
+    list-style-type: none;
+    padding: 10px;
+}
+li{
+    padding: 2px;
+    font-weight: 500;
+}
+h4{
+    color: $h4Color;
+    text-align: center;
+}
+h2{
+    color: $h4Color;
+}
+.aboutContainer{
+    min-height: 100vh;
+}
+.about-top-title{
+    padding: 10px;
+}
+.about-sub-title{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 300;
+}
+.about-title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.ityped-cursor {
+    font-size: 2.2rem;
+    opacity: 1;
+    -webkit-animation: blink 0.3s infinite;
+    -moz-animation: blink 0.3s infinite;
+    animation: blink 0.3s infinite;
+    animation-direction: alternate;
+}
+@keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+@-webkit-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}
+@-moz-keyframes blink {
+    100% {
+        opacity: 0;
+    }
+}

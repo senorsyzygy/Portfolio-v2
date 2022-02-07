@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Navvy() {
 <>
-<Navbar stick="top" bg="light" variant="light">
+<Navbar fixed="top" bg="light" variant="light">
         <Container>
         <Navbar.Brand href="#home">
             <img

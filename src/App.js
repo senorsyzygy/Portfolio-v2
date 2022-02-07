@@ -1,23 +1,24 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col, Row, Nav, Navbar, Container } from "react-bootstrap";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from './About/About';
+import Home from './Home/Home';
 
 function App() {
   return (
     <div className="app">
     <main>
-      <Navbar stick="top" bg="light" variant="light">
+      <Navbar sticky="top" bg="dark" variant="dark">
         <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand>
             <img
                 alt="TR"
                 src="./Media/Logo.png"
                 width="30"
                 height="30"
-                className="d-inline-block align-top"
+                className="d-inline-block align-top brandImage"
             />
         </Navbar.Brand>
         <Nav className="me-auto">
@@ -27,6 +28,7 @@ function App() {
         </Nav>
         </Container>
       </Navbar>
+      <Home />
       <Container className="contentContainer">
         <About />
       </Container>

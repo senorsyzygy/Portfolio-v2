@@ -4,6 +4,8 @@ This is my attempt to remake my static portfolio website in react, potentially a
 
 # Done so far
 
+[] Home
+<br>
 [x] Navbar 
 <br>
 [x] About Me
@@ -11,3 +13,5 @@ This is my attempt to remake my static portfolio website in react, potentially a
 [] Blog
 <br>
 [] Projects
+<br>
+[] Contact/Social Media
