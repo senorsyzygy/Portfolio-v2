@@ -25,5 +25,13 @@ export class ApiClient {
     fetchProjs(){
         return this.apiCall("get", `${url}projects`)
     }
+    //For fetching guest book comments
+    fetchGuests(){
+        return this.apiCall("get", `${url}guestbooks`)
+    }
+    //For adding guest book comments
+    addGuestbookComment(author, comment){
+        return this.apiCall("post", `${url}guestbookadd`, {author: author, comment: comment})
+    }
 
 }

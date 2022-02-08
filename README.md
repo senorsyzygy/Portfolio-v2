@@ -4,20 +4,20 @@ This is my attempt to remake my static portfolio website in react, potentially a
 
 # Done so far
 
-[] Home
+- [] Home
 <br>
-[x] Navbar 
+- [x] Navbar 
 <br>
-[x] About Me
+- [x] About Me
 <br>
-[x] Blog
+- [x] Blog
 <br>
-[x] Projects
+- [x] Projects
 <br>
-[] Contact/Social Media
+- [] Contact/Social Media
 <br>
-[] Guestbook (maybe?)
+- [x] Guestbook
 <br>
-[] Routing
+- [] Routing
 <br>
-[] Admin login (depends on how annoyed I get doing it via Mongo/Insomnia)
+- [] Admin login (depends on how annoyed I get doing it via Mongo/Insomnia)

@@ -7,6 +7,7 @@ import About from './About/About';
 import Home from './Home/Home';
 import Blog from './Blog/Blog';
 import Projects from './Projects/Projects';
+import Guestbook from './Guestbook/Guestbook';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <Home />
       <Container className="contentContainer">
         <About />
+        <Guestbook />
         <Blog />
         <Projects />
       </Container>
