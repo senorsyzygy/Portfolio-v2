@@ -10,8 +10,10 @@ This is my attempt to remake my static portfolio website in react, potentially a
 <br>
 [x] About Me
 <br>
-[] Blog
+[x] Blog
 <br>
 [] Projects
 <br>
 [] Contact/Social Media
+<br>
+[] Guestbook (maybe?)

@@ -5,12 +5,13 @@ import { Col, Row, Nav, Navbar, Container } from "react-bootstrap";
 import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from './About/About';
 import Home from './Home/Home';
+import Blog from './Blog/Blog';
 
 function App() {
   return (
     <div className="app">
     <main>
-      <Navbar sticky="top" bg="dark" variant="dark">
+      <Navbar fixed="top" bg="dark" variant="dark">
         <Container>
         <Navbar.Brand>
             <img
@@ -23,14 +24,17 @@ function App() {
         </Navbar.Brand>
         <Nav className="me-auto">
             <Nav.Link href="#home">About Me</Nav.Link>
-            <Nav.Link href="#features">Blog</Nav.Link>
             <Nav.Link href="#pricing">Projects</Nav.Link>
+            <Nav.Link href="#features">Blog</Nav.Link>
+            <Nav.Link href="#features">Contact</Nav.Link>
+            <Nav.Link href="#features">Guestbook</Nav.Link>
         </Nav>
         </Container>
       </Navbar>
       <Home />
       <Container className="contentContainer">
         <About />
+        <Blog />
       </Container>
     </main>
     </div>
