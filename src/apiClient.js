@@ -17,9 +17,13 @@ export class ApiClient {
             };
         });
     }
-//For fetching the blogs
+    //For fetching the blogs
     fetchBlogs(){
         return this.apiCall("get", `${url}bloggers`)
+    }
+    //For fetching the projects
+    fetchProjs(){
+        return this.apiCall("get", `${url}projects`)
     }
 
 }

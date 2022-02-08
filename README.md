@@ -12,8 +12,12 @@ This is my attempt to remake my static portfolio website in react, potentially a
 <br>
 [x] Blog
 <br>
-[] Projects
+[x] Projects
 <br>
 [] Contact/Social Media
 <br>
 [] Guestbook (maybe?)
+<br>
+[] Routing
+<br>
+[] Admin login (depends on how annoyed I get doing it via Mongo/Insomnia)

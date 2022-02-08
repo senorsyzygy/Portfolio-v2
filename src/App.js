@@ -6,6 +6,7 @@ import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from './About/About';
 import Home from './Home/Home';
 import Blog from './Blog/Blog';
+import Projects from './Projects/Projects';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <Container className="contentContainer">
         <About />
         <Blog />
+        <Projects />
       </Container>
     </main>
     </div>
