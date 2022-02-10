@@ -1,5 +1,5 @@
 import axios from "axios";
-const url = "http://localhost:3001/";
+const url = "https://tomportfolio-backend.herokuapp.com/";
 
 export class ApiClient {
 

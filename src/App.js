@@ -10,10 +10,10 @@ import Projects from './Projects/Projects';
 import Guestbook from './Guestbook/Guestbook';
 
 function App() {
-  return (
+return (
     <div className="app">
     <main>
-      <Navbar fixed="top" bg="dark" variant="dark">
+    <Navbar fixed="top" bg="dark" variant="dark">
         <Container>
         <Navbar.Brand>
             <img
@@ -32,17 +32,17 @@ function App() {
             <Nav.Link href="#features">Guestbook</Nav.Link>
         </Nav>
         </Container>
-      </Navbar>
-      <Home />
-      <Container className="contentContainer">
+    </Navbar>
+    <Home />
+    <Container className="contentContainer">
         <About />
         <Guestbook />
         <Blog />
         <Projects />
-      </Container>
+    </Container>
     </main>
     </div>
-  );
+);
 }
 
 export default App;
