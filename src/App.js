@@ -36,7 +36,6 @@ return (
     <Home />
     <Container className="contentContainer">
         <About />
-        <Guestbook />
         <Blog />
         <Projects />
     </Container>
