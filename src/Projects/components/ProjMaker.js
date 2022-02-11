@@ -10,7 +10,7 @@ export default function ProjMaker(props) {
             <Card className="cardGen">
                 <Card.Img variant="top" src={props.image1} alt="Henlo" />
                 <Card.Body>
-                    <Card.Title>{props.projectName}</Card.Title>
+                    <Card.Title className="card-title">{props.projectName}</Card.Title>
                     <Card.Subtitle className="mb-2 text-muted">{props.subname}</Card.Subtitle>
                     <Card.Text><hr></hr></Card.Text>
                     <Card.Text><h5>Project description</h5><br />{props.projectdesc}</Card.Text>

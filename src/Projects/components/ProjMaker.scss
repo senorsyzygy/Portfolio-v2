@@ -1,6 +1,12 @@
+@import "../../global.scss";
+
 .button{
     padding: 5px !important;
 }
 .cardGen{
     padding: 20px;
+}
+.card-title{
+    font-size: 35px;
+    color: $h2Color;
 }

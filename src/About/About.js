@@ -15,7 +15,7 @@ export default function About() {
       showCursor: true,
       backDelay: 1500,
       backSpeed:90,
-      strings: ["<h1> Hello World! </h1>"],
+      strings: ["Hello World!"],
     });
   }, []);
 
