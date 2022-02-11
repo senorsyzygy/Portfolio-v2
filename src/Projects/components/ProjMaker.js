@@ -15,7 +15,7 @@ export default function ProjMaker(props) {
                     <Card.Text><hr></hr></Card.Text>
                     <Card.Text><h5>Project description</h5><br />{props.projectdesc}</Card.Text>
                     <Card.Text><h5>What I learned</h5><br />{props.learning}</Card.Text>
-                    {props.backend != "" ? 
+                    {props.backend != undefined ? 
                     <> 
                     <Button className="button" variant="outline-primary" target="_blank" href={props.frontend}>UI Source</Button> 
                     <Button className="button" variant="outline-primary" target="_blank" href={props.backend}>Server Source</Button> 
