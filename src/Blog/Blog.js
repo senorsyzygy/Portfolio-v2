@@ -30,7 +30,7 @@ export default function Blog() {
     }
 
     return(
-        <Container>
+        <Container className="blogContainer">
             <Row>
                 <Col>
                 <h1 class="display-3 text-center blog-top-title">Blog</h1>

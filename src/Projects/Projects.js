@@ -2,6 +2,7 @@ import { Container } from "react-bootstrap";
 import { Col, Row } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../App.scss';
+import './Projects.scss'
 import React,{ useEffect, useState } from "react";
 import { ApiClient } from "../apiClient";
 import ProjMaker from "./components/ProjMaker";
@@ -20,17 +21,17 @@ export default function Projects() {
         return projs.map((current) => {
             return(
                 <Col>
-                <ProjMaker projectName={current.projectName} subname={current.subname} projectdesc={current.projectdesc} image1={current.image1} learning={current.learning} frontend={current.frontend} backend={current.backend} livesite={current.livesite}></ProjMaker>
+                <ProjMaker key={current.createdAt} projectName={current.projectName} subname={current.subname} projectdesc={current.projectdesc} image1={current.image1} learning={current.learning} frontend={current.frontend} backend={current.backend} livesite={current.livesite}></ProjMaker>
                 </Col>
             )
         })
     }
 
     return(
-        <Container>
+        <Container className="projectsContainer">
             <Row>
                 <Col>
-                <h1 class="display-3 text-center proj-top-title">Projects</h1>
+                <h1 className="display-3 text-center proj-top-title">Projects</h1>
                 <hr/>
                 </Col>
             </Row>
