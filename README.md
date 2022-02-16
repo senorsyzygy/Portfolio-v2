@@ -4,7 +4,7 @@ This is my attempt to remake my static portfolio website in react, potentially a
 
 # Done so far
 
-- [] Home
+- [x] Home
 <br>
 - [x] Navbar 
 <br>
@@ -14,10 +14,8 @@ This is my attempt to remake my static portfolio website in react, potentially a
 <br>
 - [x] Projects
 <br>
-- [] Contact/Social Media
+- [x] Contact/Social Media
 <br>
-- [x] Guestbook
-<br>
-- [] Routing
+- [x] Routing
 <br>
 - [] Admin login (depends on how annoyed I get doing it via Mongo/Insomnia)
