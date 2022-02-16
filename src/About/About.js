@@ -6,6 +6,7 @@ import '../App.scss';
 import './About.scss';
 import React,{ useEffect, useRef } from "react";
 import { init } from "ityped";
+import Contact from "../Contact/Contact";
 
 export default function About() {
   const textRef = useRef();
@@ -29,12 +30,18 @@ export default function About() {
       </Row>
       <Row>
         <Col xs={12} lg={6}>
-        <h5 className="about-title text-center"><span ref={textRef}></span></h5>
-        <h2 className="about-sub-title">My name is Tom Roe, I'm 27 and based in Sheffield, England.</h2>
-        <br />
-        <p>I am a keen learner and always want to expand my knowledge, I've always had an interest in trying to figure out how things work and when it comes to programming how I can replicate and implement it.</p>
-        <p>I like to revisit old projects I've worked on and either expand upon them with new tricks I've learned or reworking from the ground up. I also enjoy starting new projects to either further my knowledge and try out some stuff I've learnt or to learn something new.</p>
-        <p>I can be found either watching shows and films, playing games, playing with my pi, reading or practicing in some of the software mentioned in this section.</p>
+          <Row>
+            <h5 className="about-title text-center"><span ref={textRef}></span></h5>
+            <h2 className="about-sub-title">My name is Tom Roe, I'm 27 and based in Sheffield, England.</h2>
+          </Row>
+          <Row>
+            <Image src="/Media/me.jpg" roundedCircle className="selfie"></Image>
+          </Row>
+          <Row>
+            <p>I am a keen learner and always want to expand my knowledge, I've always had an interest in trying to figure out how things work and when it comes to programming how I can replicate and implement it.</p>
+            <p>I like to revisit old projects I've worked on and either expand upon them with new tricks I've learned or reworking from the ground up. I also enjoy starting new projects to either further my knowledge and try out some stuff I've learnt or to learn something new.</p>
+            <p>I can be found either watching shows and films, playing games, playing with my pi, reading or practicing in some of the software mentioned in this section.</p>
+          </Row>
         </Col>
         <Col xs={12} lg={6}>
         <h5 className="about-title text-center">Technical</h5>
@@ -86,6 +93,7 @@ export default function About() {
         </Row>
         </Col>
       </Row>
+      <Contact/>
     </Container>
   );
 }

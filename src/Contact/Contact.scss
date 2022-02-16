@@ -1,0 +1,29 @@
+@import "../global.scss";
+
+.contact-container{
+    padding: 20px;
+}
+.contact-header-row{
+    padding-top: 10px;
+}
+.contact-body-row{
+    text-align: center;
+    font-size: 20px;
+    color: $h4Color;
+}
+.social-media-row{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    img{
+        padding: 5px;
+    }
+    img:hover{
+        filter:drop-shadow(0 0 1px);
+        transition: 0.5s ease;
+        transform: rotateY(360deg);
+        transform: scale(1.2)
+    }
+}

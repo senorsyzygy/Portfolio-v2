@@ -9,12 +9,11 @@
 .header-title{
   color: #FFF;
   text-align: center;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
   font-size: 40px;
   padding: 25px;
   font-weight: 500;
-  text-shadow: 3px 3px rgba(50,50,70,0.5);
+  text-shadow: 5px 5px rgba(50,50,70,0.5);
 }
 .app{
   background-color: $bgColor;
