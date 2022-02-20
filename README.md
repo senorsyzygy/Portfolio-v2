@@ -18,4 +18,4 @@ This is my attempt to remake my static portfolio website in react, potentially a
 <br>
 - [x] Routing
 <br>
-- [] Admin login (depends on how annoyed I get doing it via Mongo/Insomnia)
+- [?] Admin login (depends on how annoyed I get doing it via Mongo/Insomnia)
